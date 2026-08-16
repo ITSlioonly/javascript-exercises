@@ -7,9 +7,17 @@
  The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
 */
 
+let firstName = "Carlos";
+let lastName = "Stevenson";
+let thisYear = 1965;
+let birthYear = 1947;
+
 // Add your code right below, good luck!
 
-
+const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (1965-1947) + " years old.";
+const fullName = firstName + " " + lastName;
+const age = thisYear - birthYear;
+console.log(greeting)
 
 
 
